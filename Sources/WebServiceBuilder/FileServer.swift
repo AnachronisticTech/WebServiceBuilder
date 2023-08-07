@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol FileServer : APICapability
+public protocol FileServer : BundleAccessor
 {
     var publicDirectoryPath: String { get }
     var publicDirectoryPathComponent: String { get }

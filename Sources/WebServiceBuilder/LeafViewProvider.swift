@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol LeafViewProvider : APICapability
+public protocol LeafViewProvider : BundleAccessor
 {
     var resourcesDirectoryPath: String { get }
     var resourcesDirectoryPathComponent: String { get }
